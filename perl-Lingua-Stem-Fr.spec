@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Lingua
-%define	pnam	Stem-Fr
+%define		pdir	Lingua
+%define		pnam	Stem-Fr
 Summary:	Lingua::Stem::Fr - Porter's stemming algorithm for French
 Summary(pl):	Lingua::Stem::Fr - algorytm Portera okre¶laj±cy rdzenie s³ów dla jêzyka francuskiego
 Name:		perl-Lingua-Stem-Fr
