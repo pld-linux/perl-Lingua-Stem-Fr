@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Lingua
 %define		pnam	Stem-Fr
+%include	/usr/lib/rpm/macros.perl
 Summary:	Lingua::Stem::Fr - Porter's stemming algorithm for French
 Summary(pl.UTF-8):	Lingua::Stem::Fr - algorytm Portera określający rdzenie słów dla języka francuskiego
 Name:		perl-Lingua-Stem-Fr
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	b4ea5dd1d942b190160e9cbc73115b20
+URL:		http://search.cpan.org/dist/Lingua-Stem-Fr/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
