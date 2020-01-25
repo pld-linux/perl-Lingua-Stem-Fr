@@ -4,7 +4,6 @@
 
 %define		pdir	Lingua
 %define		pnam	Stem-Fr
-%include	/usr/lib/rpm/macros.perl
 Summary:	Lingua::Stem::Fr - Porter's stemming algorithm for French
 Summary(pl.UTF-8):	Lingua::Stem::Fr - algorytm Portera określający rdzenie słów dla języka francuskiego
 Name:		perl-Lingua-Stem-Fr
